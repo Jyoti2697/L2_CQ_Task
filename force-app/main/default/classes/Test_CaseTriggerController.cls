@@ -6,7 +6,7 @@
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 @isTest
-public class Text_CaseTriggerController {
+public class Test_CaseTriggerController {
     @testsetup static void setupCaseNC(){
         Case newCase= new Case();
         newCase.Subject= 'NC Test';
