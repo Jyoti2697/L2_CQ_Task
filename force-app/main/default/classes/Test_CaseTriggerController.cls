@@ -16,11 +16,11 @@ public class Test_CaseTriggerController {
         insert newCase;
         
         Case newCase1= new Case();
-        newCase.Subject= 'NC Test';
-        newCase.Description= 'NC Desc';
-        newCase.Type= 'Question';
-        newCase.Status= 'New';
-        newCase.Origin= 'Email';
+        newCase1.Subject= 'NC Test';
+        newCase1.Description= 'NC Desc';
+        newCase1.Type= 'Question';
+        newCase1.Status= 'New';
+        newCase1.Origin= 'Email';
         insert newCase1;
     }
     @isTest
